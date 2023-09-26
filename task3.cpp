@@ -62,10 +62,10 @@ int main() {
 
         switch (choice) {
             case 1: {
-                cin.ignore(); // Clear the input buffer
+            
                 cout << "Enter task description: ";
                 string description;
-                getline(cin, description);
+                cin>>description;
                 addTask(tasks, description);
                 break;
             }
